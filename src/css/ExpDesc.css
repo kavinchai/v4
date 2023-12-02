@@ -7,7 +7,6 @@
   
     position: relative;
     transition: 0.5s;
-    background-color: var(--primary-bg-color);
 }
 
 .exp-desc-header {
