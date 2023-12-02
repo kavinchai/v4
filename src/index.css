@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+:root {
+  --primary-bg-color: #aad4f3;
+  --secondary-bg-color: #86b9df;
+  --tertiary-bg-color: #89b2d1;
+  --quaternary-bg-color: #175d8d;
+  --quinary-bg-color: #104265;
+
+  --primary-txt-color: #89b2d1;
+  --secondary-txt-color: #175d8d;
+  --tertiary-txt-color: #104265;
+  --quaternary-txt-color: #ffffff;
+
+  --heading-font: "Poppins", sans-serif;
+  --normal-font: 'Gothic A1', sans-serif;
+  --thai-font: 'Prompt', sans-serif;
+
+  --heading1: 40px;
+  --heading2: 17px;
+}
+
 body {
   margin: 0;
+  overflow-x: hidden;
 }

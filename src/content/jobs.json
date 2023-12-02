@@ -1,0 +1,69 @@
+{
+  "data": [
+    {
+      "date": "2022-09-02",
+      "title": "Software Engineering Intern",
+      "company": "Bushel",
+      "location": "Fargo, North Dakota",
+      "duration": "May - August 2022",
+      "url": "https://bushelpowered.com/",
+      "text": [
+        "Constructed dockerized RESTful API using Kotlin and the Spring Boot framework for company web and mobile applications.",
+        "Designed and implemented a relational database with MariaDb that leverages Liquibase for migration handling.",
+        "Improved code readability by refactoring redundancies in various microservices with generic Kotlin methods and Spring annotations for dependency injection."
+      ]
+    },
+    {
+      "date": "2021-05-01",
+      "title": "Software Engineering Intern",
+      "company": "Mverge",
+      "location": "Bangkok, Thailand",
+      "duration": "May - August 2021",
+      "url": "https://www.mverge.co.th/",
+      "text": [
+        "Developed web application for corporate internal communication and information storage using Microsoft Power Platforms.",
+        "Improved efficiency of feature deployment by implementing CI/CD pipelines in Microsoft Azure for cloud-based automation.",
+        "Coordinated bi-weekly sprints using Agile practices for deployment of application features and project timeline forecasting."
+      ]
+    },
+    {
+      "date": "2020-05-15",
+      "title": "Software Engineering Intern",
+      "company": "Dairy Plus Co.",
+      "location": "Nakhon Sawan, Thailand",
+      "duration": "May - August 2020",
+      "url": "http://www.dutchmillinternational.com/en/site/home",
+      "text": [
+        "Streamlined visualization of production output by developing a Python app that displays brix produced per minute in real-time using the Tkinter GUI library.",
+        "Maintained quality control for the production line by manually operating SIG Combibloc filling machine in aseptic conditions.",
+        "Drafted preliminary quality assurance protocols by creating electrical directives derived from Thai manuals."
+      ]
+    },
+    {
+      "date": "2019-06-10",
+      "title": "Software Engineering Intern",
+      "company": "Tetra Pak",
+      "location": "Pune, India",
+      "duration": "June - August 2019",
+      "url": "https://www.tetrapak.com/",
+      "text": [
+        "Acquired experience in implementation of REST APIs and designing systems architecture for web applications.",
+        "Created several iterations of corporate intranet website by restructuring JavaScript web components.",
+        "Facilitated weekly conferences to ensure the development process among various teams is synchronously aligned and allocated Jira tasks accordingly."
+      ]
+    },
+    {
+      "date": "2018-05-05",
+      "title": "Mechanical Engineering Intern",
+      "company": "Dutchmill",
+      "location": "Nakhon Pathom, Thailand",
+      "duration": "May - August 2018",
+      "url": "http://www.dutchmillinternational.com/en/site/home",
+      "text": [
+        "Created technical directives to update machine manuals for the STORK heat treatment equipment in replacement of obsolete cleaning-in-place systems.",
+        "Led daily briefings with mechanical teams to coordinate progressive installation of STORK.",
+        "Worked with the mechanical team in daily maintenance of aqueduct systems."
+      ]
+    }
+  ]
+}

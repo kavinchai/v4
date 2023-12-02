@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "title": "NASA Additive Manufacturing Application",
+      "desc": "Application that converts PCB layouts to print path files of the STEP format. The software leverages CAD python libraries and a graphical user interface allowing users to configure desired PCB input parameters.",
+      "link": "https://github.com/kavinchai/NASA_AM_App",
+      "tech": ["Python", "CadQuery"]
+    },
+    {
+      "title": "Front End Pokedéx",
+      "desc": "A web application that displays a database of pokemon built with react.",
+      "link": "https://github.com/kavinchai/pokedex_frontend",
+      "tech": ["React"]
+    },
+    {
+      "title": "Back End Pokedéx",
+      "desc": "A pokedex RESTful API that stores pokemon and trainer information in a relational database. Migrations are handled with liquibase and runs in a docker container. Users are authenticated with JWT.",
+      "link": "https://github.com/kavinchai/pokedex_backend",
+      "tech": ["Kotlin", "Spring", "Liquibase", "MariaDB"]
+    },
+    {
+      "title": "Smart Home Project",
+      "desc": "A system comprised of several digital devices synchronously operated by an android application. The HC-05 bluetooth module was used as a transmitter for connection between the circuit and the application. ",
+      "link": "https://youtu.be/J0m3PwPlISA",
+      "tech": ["Waveforms", "Arduino"]
+    },
+    {
+      "title": "Personal Website",
+      "desc": "This website uses React and is deployed on AWS amplify.",
+      "link": "",
+      "tech": ["React", "AWS Amplify"]
+    }
+  ]
+}
