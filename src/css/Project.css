@@ -1,0 +1,74 @@
+.projectComponent {
+    height: 80vh;
+    width: 100vw;
+    transition: 0.5s;
+    /* background-color: red; */
+    background-color: var(--primary-bg-color);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .projectContainer {
+    /* border: 5px solid #ffff00; */
+    position: relative;
+    padding: 10px;
+    height: 80%;
+    width: 80vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  
+  .projectHeader {
+    /* margin-bottom: 10px; */
+  }
+  
+  .projectBody {
+    /* background-color: blue; */
+  
+    left: 50%;
+    transform: translate(-50%, 0%);
+  
+    /* width: auto; */
+    height: auto;
+    position: relative;
+  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .projTxt1 {
+    font-family: var(--heading-font);
+    font-size: var(--heading1);
+    font-weight: bold;
+    text-align: right;
+    color: var(--secondary-txt-color);
+  }
+  
+  .projTxt2 {
+    font-family: var(--heading-font);
+    font-size: var(--heading2);
+    text-align: right;
+    color: var(--secondary-txt-color);
+  }
+  
+  .projectBody:hover > * {
+    opacity: 0.3;
+  }
+  
+  .projectBody {
+    pointer-events: none;
+  }
+  
+  .projectBody > * {
+    pointer-events: auto;
+  }
+  
+  .projectBody:hover > *:hover {
+    opacity: 1;
+  }
+  
