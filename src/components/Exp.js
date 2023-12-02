@@ -12,6 +12,8 @@ const Exp = () => {
   }, [dispNum]);
 
   return (
+    <>
+    <div className="exp-trans"/>
     <div className="exp-component">
       <div className="exp-container">
         <text className="exp-header header-txt">Experience</text>
@@ -38,6 +40,7 @@ const Exp = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
