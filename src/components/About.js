@@ -12,11 +12,13 @@ const About = () => {
           </text>
           <TypeAnimation
             sequence ={[
-              "I'm a software engineer",
+              "I write code",
               1000,
-              "I'm a photographer",
+              "I design websites",
               1000,
-              "I'm a designer",
+              "I take photos",
+              1000,
+              "I review coffee",
               1000
             ]}
             speed={30}
