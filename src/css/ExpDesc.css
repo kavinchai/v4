@@ -1,0 +1,85 @@
+.exp-desc-component {
+    /* background-color: blue; */
+    height: auto;
+    width: 80%;
+    margin-left: auto;
+    margin-right: 0;
+  
+    position: relative;
+    transition: 0.5s;
+    background-color: var(--primary-bg-color);
+}
+
+.exp-desc-header {
+    /* background-color: red; */
+  
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+  
+.exp-desc-headerSec1 {
+    /* background-color: green; */
+  
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 10px;
+  
+    font-family: 'Manrope', sans-serif;
+}
+  
+.exp-desc-title {
+    font-size: 40px;
+    margin-left: auto;
+    padding-right: 1%;
+}
+  
+.expDescCompany {
+    font-weight: 1000;
+    transition: text-decoration-color 300ms;
+    font-size: 40px;
+    color: Black;
+    text-decoration: underline 0.15em var(--primary-bg-color);
+}
+  
+.expDescCompany:hover {
+    cursor: pointer;
+    text-decoration-color: var(--secondary-txt-color);
+}
+  
+.exp-desc-headerSec2 {
+    /* background-color: red; */
+  
+    width: 100%;
+    display: flex;
+  
+    font-family: var(--normal-font);
+    font-size: 25px;
+    display: flex;
+}
+  
+.exp-desc-location {
+    margin-left: auto;
+    padding-right: 1%;
+}
+  
+.exp-desc-body {
+    /* background-color: yellow; */
+    font-size: 25px;
+    width: 100%;
+    height: auto;
+}
+  
+.exp-desc-unordered-list {
+    /* background-color: red; */
+  
+    padding-left: 30px;
+}
+  
+.exp-desc-list {
+    font-family: 'Manrope', sans-serif;
+  
+    padding-left: 10px;
+    padding-bottom: 40px;  
+}
