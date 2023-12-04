@@ -1,16 +1,18 @@
 import React from "react";
 
 import Navbar from "./Navbar";
-import About from "./About";
+import FirstPage from "./FirstPage";
 import Exp from "./Exp";
 import Project from "./Project";
+import About from "./About";
 
 const App = () => {
   return (
     <>
     
       {/* <Navbar/> */}
-      <About/>
+      <FirstPage/>
+      {/* <About/> */}
       <Exp/>
       <Project/>
     </>
