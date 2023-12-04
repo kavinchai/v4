@@ -1,112 +1,75 @@
-.projCardComponent {
-    /* border: 3px solid var(--secondary-bg-color); */
-  
-    height: 300px;
-    width: 275px;
-    margin: 10px;
-  
-    border-radius: 20px;
-    position: relative;
-  
-    text-decoration: none;
-    transition: 0.2s;
-    background-color: var(--quaternary-bg-color);
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .projCardComponent::before {
-    content: "";
-    position: absolute;
-    top: -0.8px;
-    right: 0;
-    width: 0;
-    height: 0;
-    border-left: 60px solid transparent;
-    border-top: 60px solid var(--primary-bg-color);
-    animation: gradient 4s infinite alternate linear;
-  }
-  
-  @keyframes gradient {
-    0% {
-      border-top-color: #ee6055;
-    }
-    25% {
-      border-top-color: #60d394;
-    }
-    50% {
-      border-top-color: #aaf683;
-    }
-    75% {
-      border-top-color: #ffd97d;
-    }
-    100% {
-      border-top-color: #ff9b85;
-    }
-  }
-  
-  .projHeader {
-    /* background-color: blue; */
-  
-    margin: 10px 20px 0px 20px;
-    height: 17%;
-    display: flex;
-    position: relative;
-  }
-  
-  .projBody {
-    /* background-color: red; */
-  
-    z-index: 1;
-    margin: 0px 20px 0px 20px;
-    height: 70%;
-    display: flex;
-  }
-  
-  .projFooter {
-    /* background-color: green; */
-    z-index: 1;
-    margin: 0px 20px 10px 20px;
-    display: flex;
-  }
-  
-  .projHeaderSect {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-  }
-  
-  .projBodySect {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .projFooterSect {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .projTitle {
-    align-self: center;
-    font-family: var(--normal-font);
-    font-size: 19px;
-    /* font-weight: bold; */
-    color: var(--quaternary-txt-color);
-  }
-  
-  .projDesc {
-    font-family: var(--normal-font);
-    font-size: 15px;
-    color: var(--quaternary-txt-color);
-    position: relative;
-    top: 20px;
-  }
-  
-  .projTech {
-    font-family: var(--normal-font);
-    font-size: 14px;
-    color: var(--quaternary-txt-color);
-    display: flex;
-    gap: 12px;
-  }
-  
+.project-card-component {
+  /* border: 3px solid var(--secondary-bg-color); */
+
+  height: 375px;
+  width: 330px;
+  margin: 30px;
+
+  border-radius: 10px;
+  position: relative;
+
+  text-decoration: none;
+  transition: 0.2s;
+  background-color: rgb(245, 230, 198);
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card-header {
+  /* background-color: blue; */
+
+  margin: 10px 20px 0px 20px;
+  display: flex;
+}
+
+.project-card-body {
+  /* background-color: red; */
+
+  margin: 0px 20px 0px 20px;
+  height: auto;
+  display: flex;
+}
+
+.project-card-footer {
+  /* background-color: green; */
+  margin: auto 20px 10px 20px;
+}
+
+.project-card-header-sect {
+  display: flex;
+  justify-content: center;
+}
+
+.project-card-body-sect {
+  display: flex;
+  justify-content: center;
+}
+
+.project-card-footer-sect {
+  display: flex;
+  justify-content: center;
+}
+
+.project-card-title {
+  align-self: center;
+  font-family: 'Manrope', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: Black;
+}
+
+.project-card-desc {
+  font-family: 'Manrope', sans-serif;
+  font-size: 20px;
+  color: Black;
+  position: relative;
+  top: 20px;
+}
+
+.project-card-tech {
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+  color: Black;
+  display: flex;
+  gap: 12px;
+}

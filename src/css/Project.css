@@ -1,74 +1,76 @@
-.projectComponent {
-    height: 80vh;
-    width: 100vw;
-    transition: 0.5s;
-    /* background-color: red; */
-    background-color: var(--primary-bg-color);
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .projectContainer {
-    /* border: 5px solid #ffff00; */
-    position: relative;
-    padding: 10px;
-    height: 80%;
-    width: 80vw;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-  }
-  
-  .projectHeader {
-    /* margin-bottom: 10px; */
-  }
-  
-  .projectBody {
-    /* background-color: blue; */
-  
-    left: 50%;
-    transform: translate(-50%, 0%);
-  
-    /* width: auto; */
-    height: auto;
-    position: relative;
-  
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-  }
-  
-  .projTxt1 {
-    font-family: var(--heading-font);
-    font-size: var(--heading1);
-    font-weight: bold;
-    text-align: right;
-    color: var(--secondary-txt-color);
-  }
-  
-  .projTxt2 {
-    font-family: var(--heading-font);
-    font-size: var(--heading2);
-    text-align: right;
-    color: var(--secondary-txt-color);
-  }
-  
-  .projectBody:hover > * {
-    opacity: 0.3;
-  }
-  
-  .projectBody {
-    pointer-events: none;
-  }
-  
-  .projectBody > * {
-    pointer-events: auto;
-  }
-  
-  .projectBody:hover > *:hover {
-    opacity: 1;
-  }
-  
+.project-trans {
+  background-image: linear-gradient(#aad4f3, #54bb51);
+  width: 100%;
+  height: 2vh;
+}
+.project-component {
+  height: auto;
+  width: 100vw;
+  transition: 0.5s;
+  background-color: #54bb51;
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-container {
+  /* border: 5px solid #ffff00; */
+  position: relative;
+  padding: 10px;
+  height: 80%;
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.project-header {
+  margin-top: 70px;
+}
+
+.project-body {
+  /* background-color: blue; */
+
+  left: 50%;
+  transform: translate(-50%, 0%);
+
+  height: auto;
+  position: relative;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.project-header-text {
+  font-family: 'Manrope', sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  text-align: right;
+  color: Black;
+}
+
+.project-header-subtitle {
+  font-family: 'Manrope', sans-serif;
+  font-size: 30px;
+  text-align: right;
+  color: Black;
+}
+
+.project-body:hover > * {
+  opacity: 0.3;
+}
+
+.project-body {
+  pointer-events: none;
+}
+
+.project-body > * {
+  pointer-events: auto;
+}
+
+.project-body:hover > *:hover {
+  opacity: 1;
+}
