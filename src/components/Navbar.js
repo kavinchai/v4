@@ -32,7 +32,7 @@ const Navbar = () => {
           </button>
           <button
             className="navBtn"
-            onClick={() => scrollTo(".projectComponent")}
+            onClick={() => scrollTo(".project-component")}
           >
             projects
           </button>

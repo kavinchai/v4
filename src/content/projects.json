@@ -1,14 +1,14 @@
 {
   "data": [
     {
-      "title": "NASA Additive Manufacturing Application",
-      "desc": "Application that converts PCB layouts to print path files of the STEP format. The software leverages CAD python libraries and a graphical user interface allowing users to configure desired PCB input parameters.",
+      "title": "NASA AM Application",
+      "desc": "Application for additive manufacturing that converts PCB layouts to print path files of the STEP format. The software leverages CAD python libraries and a graphical user interface allowing users to configure desired PCB input parameters.",
       "link": "https://github.com/kavinchai/NASA_AM_App",
       "tech": ["Python", "CadQuery"]
     },
     {
       "title": "Front End Pokedéx",
-      "desc": "A web application that displays a database of pokemon built with react.",
+      "desc": "A web application that displays a database of pokemon built with react. Pokemon information is sourced from API calls to an external database.",
       "link": "https://github.com/kavinchai/pokedex_frontend",
       "tech": ["React"]
     },
