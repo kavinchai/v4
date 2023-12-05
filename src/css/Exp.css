@@ -1,14 +1,8 @@
-.exp-trans {
-  background-image: linear-gradient(#d899a9, #aad4f3);
-  width: 100%;
-  height: 2vh;
-}
-
 .exp-component {
-  height: 100vh;
+  height: 130vh;
   width: 100vw;
   transition: 0.5s;
-  background-color: #aad4f3;
+  background-color: #f7f3ec;
   position: relative;
   display: flex;
   justify-content: center;
@@ -22,7 +16,7 @@
   height: auto;
   font-size: 80px;
   font-weight: bold;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
   color: Black;
 }
 
@@ -32,7 +26,7 @@
   width: 100%;
   height: auto;
   font-size: 30px;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
   font-weight: 300;
   padding-bottom: 40px;
   color: Black;
@@ -67,9 +61,10 @@
   background-color: transparent;
 
   width: 100%;
-  height: 15%;
+  height: 13%;
 
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 600;
   font-size: 30px;
   text-align: left;
   color: Black;
@@ -85,5 +80,5 @@
 
   color: Black;
   background-color: rgba(8, 131, 131, 0.1);
-  border-right: 2px solid var(--secondary-txt-color);
+  border-right: 2px solid #175d8d;
 }  
