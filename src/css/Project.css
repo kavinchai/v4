@@ -40,7 +40,7 @@
 }
 
 .project-header-text {
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
   font-size: 80px;
   font-weight: bold;
   text-align: right;
@@ -48,7 +48,7 @@
 }
 
 .project-header-subtitle {
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
   font-size: 30px;
   text-align: right;
   color: Black;
@@ -68,4 +68,14 @@
 
 .project-body:hover > *:hover {
   opacity: 1;
+}
+
+@media screen and (min-width: 1024px) {
+  .project-header-text {
+    font-size: 50px;
+  }
+
+  .project-header-subtitle {
+    font-size: 20px;
+  }
 }

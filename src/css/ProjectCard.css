@@ -10,7 +10,7 @@
 
   text-decoration: none;
   transition: 0.2s;
-  background-color: #aad4f3;
+  background-color: rgba(8, 131, 131, 0.1);
   display: flex;
   flex-direction: column;
 }
@@ -52,14 +52,14 @@
 
 .project-card-title {
   align-self: center;
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
   font-size: 25px;
   font-weight: bold;
   color: Black;
 }
 
 .project-card-desc {
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
   font-size: 20px;
   color: Black;
   position: relative;
@@ -67,10 +67,35 @@
 }
 
 .project-card-tech {
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
   font-size: 18px;
   font-weight: 600;
   color: Black;
   display: flex;
   gap: 12px;
+}
+
+@media screen and (min-width: 1024px) {
+  .project-card-component {
+    /* border: 3px solid var(--secondary-bg-color); */
+
+    height: 350px;
+    width: 305px;
+    margin: 30px;
+
+    border-radius: 10px;
+    position: relative;
+  }
+
+  .project-card-title {
+    font-size: 20px;
+  }
+
+  .project-card-desc {
+    font-size: 17px;
+  }
+
+  .project-card-tech {
+    font-size: 15px;
+  }
 }
