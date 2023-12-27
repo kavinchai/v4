@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap");
 
 :root {
   --primary-bg-color: #aad4f3;
@@ -14,8 +14,8 @@
   --quaternary-txt-color: #ffffff;
 
   --heading-font: "Poppins", sans-serif;
-  --normal-font: 'Gothic A1', sans-serif;
-  --thai-font: 'Prompt', sans-serif;
+  --normal-font: "Gothic A1", sans-serif;
+  --thai-font: "Prompt", sans-serif;
 
   --heading1: 40px;
   --heading2: 17px;
@@ -24,4 +24,5 @@
 body {
   margin: 0;
   overflow-x: hidden;
+  background-color: #f7f3ec;
 }
