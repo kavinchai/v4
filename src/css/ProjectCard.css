@@ -99,3 +99,28 @@
     font-size: 15px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .project-card-component {
+    /* border: 3px solid var(--secondary-bg-color); */
+
+    height: 300px;
+    width: 100%;
+    margin: 20px;
+
+    border-radius: 10px;
+    position: relative;
+  }
+
+  .project-card-title {
+    font-size: 18px;
+  }
+
+  .project-card-desc {
+    font-size: 17px;
+  }
+
+  .project-card-tech {
+    font-size: 13px;
+  }
+}

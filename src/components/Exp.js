@@ -35,7 +35,7 @@ const Exp = () => {
                 </button>
               ))}
             </div>
-            <ExpDesc data={data}/>
+            <ExpDesc data={data} />
           </div>
         </div>
       </div>

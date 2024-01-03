@@ -79,3 +79,54 @@
     font-size: 20px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .project-container {
+    /* border: 5px solid #ffff00; */
+    position: relative;
+    padding: 10px;
+    height: 80%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .project-header {
+    /* width: 100%; */
+    margin-top: 0px;
+    /* background-color: red; */
+  }
+
+  .project-header-text {
+    /* background-color: red; */
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+
+    color: Black;
+  }
+
+  .project-header-subtitle {
+    /* background-color: blue; */
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 30px;
+    text-align: left;
+    color: Black;
+  }
+
+  .project-body {
+    /* background-color: blue; */
+
+    height: auto;
+    width: 100%;
+    position: relative;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+  }
+}

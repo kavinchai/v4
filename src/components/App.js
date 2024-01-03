@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
       <FirstPage />
-      <About />
+      {/* <About /> */}
       <Exp />
       <Project />
     </>

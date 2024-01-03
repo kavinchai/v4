@@ -100,3 +100,95 @@
     font-size: 20px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .exp-desc-component {
+    /* background-color: blue; */
+    height: auto;
+    width: 100%;
+
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .exp-desc-header {
+    /* background-color: red; */
+
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .exp-desc-headerSec1 {
+    /* background-color: green; */
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 0px;
+    padding-bottom: 15px;
+
+    font-family: "Noto Sans TC", sans-serif;
+  }
+
+  .exp-desc-title {
+    font-size: 20px;
+    margin-left: 0;
+    padding-right: 0;
+  }
+
+  .expDescCompany {
+    font-weight: 1000;
+    transition: text-decoration-color 300ms;
+    font-size: 30px;
+    color: Black;
+    text-decoration: underline 0.15em #f8f4ee;
+  }
+
+  .expDescCompany:hover {
+    cursor: pointer;
+    text-decoration-color: #175d8d;
+  }
+
+  .exp-desc-headerSec2 {
+    /* background-color: red; */
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 15px;
+  }
+
+  .exp-desc-location {
+    margin-left: 0;
+    padding-right: 0;
+  }
+
+  .exp-desc-body {
+    /* background-color: yellow; */
+    font-size: 13px;
+    width: 100%;
+    height: auto;
+  }
+
+  .exp-desc-unordered-list {
+    /* background-color: red; */
+
+    padding-left: 15px;
+  }
+
+  .exp-desc-list {
+    font-family: "Noto Sans TC", sans-serif;
+
+    /* font-weight: 600; */
+    padding-left: 10px;
+    padding-bottom: 20px;
+  }
+}
