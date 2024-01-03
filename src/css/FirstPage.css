@@ -43,18 +43,14 @@
 }
 
 @media screen and (max-width: 500px) {
-  .first-page-component {
-    height: 80vh;
-  }
-
   .name-section {
-    font-size: 3em;
+    font-size: 2.5em;
     padding-left: 50px;
     /* background-color: red; */
   }
 
   .desc-section {
-    font-size: 2em;
+    font-size: 1.5em;
     padding-left: 50px;
   }
 }
