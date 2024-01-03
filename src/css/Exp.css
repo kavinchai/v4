@@ -99,6 +99,10 @@
 }
 
 @media screen and (max-width: 500px) {
+  .exp-component {
+    height: 80vh;
+  }
+
   .exp-container {
     /* border: 5px solid #ffff00; */
 
