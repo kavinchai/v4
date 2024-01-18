@@ -61,7 +61,7 @@
 
 .project-card-desc {
   font-family: "Noto Sans TC", sans-serif;
-  font-size: 16px;
+  font-size: 12px;
   color: Black;
   position: relative;
   top: 20px;
@@ -93,7 +93,7 @@
   }
 
   .project-card-desc {
-    font-size: 17px;
+    font-size: 15px;
   }
 
   .project-card-tech {
