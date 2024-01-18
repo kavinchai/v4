@@ -15,8 +15,8 @@ const Exp = () => {
     <>
       <div className="exp-component">
         <div className="exp-container">
-          <text className="exp-header header-txt">Experience</text>
-          <div className="exp-header sub-txt">Places I've worked</div>
+          <text className="header-txt">Experience</text>
+          <div className="sub-txt">Places I've worked</div>
           <div className="exp-body">
             <div className="exp-nav">
               {jobsJson.data.map((expInfo, index) => (
