@@ -68,6 +68,7 @@
 
 .project-body:hover > *:hover {
   opacity: 1;
+  background-color: rgba(8, 131, 131, 0.1);
 }
 
 @media screen and (min-width: 1024px) {
