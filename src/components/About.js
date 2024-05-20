@@ -28,7 +28,7 @@ const About = () => {
             </p>
           </div>
 
-          <img src={imag} className="about-img-placeholder" alt="kavinImg" />
+          {/* <img src={imag} className="about-img-placeholder" alt="kavinImg" /> */}
         </div>
       </div>
     </>
