@@ -14,7 +14,7 @@
 
   width: 100%;
   height: auto;
-  margin-bottom: 15px;
+  margin-bottom: 3%;
 }
 
 .exp-desc-headerSec1 {
@@ -25,7 +25,7 @@
   display: flex;
   gap: 10px;
 
-  font-family: "Noto Sans TC", sans-serif;
+  font-family: var(--primary-font);
 }
 
 .exp-desc-title {
@@ -39,12 +39,12 @@
   transition: text-decoration-color 300ms;
   font-size: 40px;
   color: Black;
-  text-decoration: underline 0.15em #f8f4ee;
+  text-decoration: underline 0.15em var(--std-bg-color);
 }
 
 .expDescCompany:hover {
   cursor: pointer;
-  text-decoration-color: #175d8d;
+  text-decoration-color: var(--quaternary-bg-color);
 }
 
 .exp-desc-headerSec2 {
@@ -53,7 +53,7 @@
   width: 100%;
   display: flex;
 
-  font-family: "Noto Sans TC", sans-serif;
+  font-family: var(--primary-font);
   font-size: 25px;
 }
 
@@ -76,28 +76,27 @@
 }
 
 .exp-desc-list {
-  font-family: "Noto Sans TC", sans-serif;
-
-  /* font-weight: 600; */
+  font-family: var(--primary-font);
   padding-left: 10px;
   padding-bottom: 40px;
 }
 
-@media screen and (min-width: 1024px) {
+/* Laptop Resolution */
+@media screen and (max-width: 1024px) {
   .expDescCompany {
-    font-size: 30px;
+    font-size: 24px;
   }
 
   .exp-desc-title {
-    font-size: 30px;
+    font-size: 24px;
   }
 
   .exp-desc-headerSec2 {
-    font-size: 17px;
+    font-size: 15px;
   }
 
   .exp-desc-body {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -131,7 +130,7 @@
     gap: 0px;
     padding-bottom: 15px;
 
-    font-family: "Noto Sans TC", sans-serif;
+    font-family: var(--primary-font);
   }
 
   .exp-desc-title {
@@ -150,7 +149,7 @@
 
   .expDescCompany:hover {
     cursor: pointer;
-    text-decoration-color: #175d8d;
+    text-decoration-color: var(--quaternary-bg-color);
   }
 
   .exp-desc-headerSec2 {
@@ -162,7 +161,7 @@
     align-items: left;
     justify-content: center;
 
-    font-family: "Noto Sans TC", sans-serif;
+    font-family: var(--primary-font);
     font-size: 15px;
   }
 
@@ -185,7 +184,7 @@
   }
 
   .exp-desc-list {
-    font-family: "Noto Sans TC", sans-serif;
+    font-family: var(--primary-font);
 
     /* font-weight: 600; */
     padding-left: 10px;

@@ -1,15 +1,16 @@
-.project-component {
+.proj-component {
+  /* background-color: red; */
   height: auto;
   width: 100vw;
   transition: 0.5s;
-  background-color: #f7f3ec;
-  /* position: relative; */
+  /* background-color: var(--std-bg-color); */
   display: flex;
   align-items: center;
   justify-content: center;
+  /* position: relative; */
 }
 
-.project-container {
+.proj-container {
   /* border: 5px solid #ffff00; */
   position: relative;
   padding: 10px;
@@ -20,15 +21,21 @@
   flex-direction: column;
 }
 
-.project-header {
-  margin-top: 70px;
+.proj-header {
+  /* background-color: blue; */
+  /* margin-top: 70px; */
+  text-align: center;
 }
 
-.project-body {
+.proj-subtitle {
+  text-align: center;
+}
+
+.proj-body {
   /* background-color: blue; */
 
-  left: 50%;
-  transform: translate(-50%, 0%);
+  align-items: center;
+  justify-content: center;
 
   height: auto;
   position: relative;
@@ -39,95 +46,20 @@
   justify-content: center;
 }
 
-.project-header-text {
-  font-family: "Noto Sans TC", sans-serif;
-  font-size: 80px;
-  font-weight: bold;
-  text-align: right;
-  color: Black;
-}
-
-.project-header-subtitle {
-  font-family: "Noto Sans TC", sans-serif;
-  font-size: 30px;
-  text-align: right;
-  color: Black;
-}
-
-.project-body:hover > * {
+.proj-body:hover > * {
   opacity: 0.3;
 }
 
-.project-body {
+.proj-body {
   pointer-events: none;
 }
 
-.project-body > * {
+.proj-body > * {
   pointer-events: auto;
 }
 
-.project-body:hover > *:hover {
+.proj-body:hover > *:hover {
   opacity: 1;
   background-color: rgba(8, 131, 131, 0.1);
 }
 
-@media screen and (min-width: 1024px) {
-  .project-header-text {
-    font-size: 50px;
-  }
-
-  .project-header-subtitle {
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .project-container {
-    /* border: 5px solid #ffff00; */
-    position: relative;
-    padding: 10px;
-    height: 80%;
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .project-header {
-    /* width: 100%; */
-    margin-top: 0px;
-    /* background-color: red; */
-  }
-
-  .project-header-text {
-    /* background-color: red; */
-    font-family: "Noto Sans TC", sans-serif;
-    font-size: 50px;
-    font-weight: bold;
-    text-align: left;
-
-    color: Black;
-  }
-
-  .project-header-subtitle {
-    /* background-color: blue; */
-    font-family: "Noto Sans TC", sans-serif;
-    font-size: 30px;
-    text-align: left;
-    color: Black;
-  }
-
-  .project-body {
-    /* background-color: blue; */
-
-    height: auto;
-    width: 100%;
-    position: relative;
-
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    /* justify-content: center;
-    align-items: center; */
-  }
-}

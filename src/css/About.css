@@ -1,7 +1,7 @@
 .about-component {
     height: 100vh;
     width: 100vw;
-    /* background-color: #d899a9; */
+    background-color: var(--std-bg-color);
     position: relative;
     display: flex;
     justify-content: center;
@@ -9,10 +9,47 @@
 }
 
 .about-container {
-    border: 5px solid #ffff00;
+    /* border: 5px solid #ffff00; */
   
     position: relative;
-    padding: 10px;
-    height: 80%;
-    width: 80%;
+    margin: 10px;
+    height: 90%;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
+
+.highlight {
+    background-color: transparent;
+}
+
+.nameMark {
+    cursor: pointer;
+}
+
+h1 {
+    font-family: var(--primary-font);
+}
+
+p {
+    font-family: var(--primary-font);
+    font-size: 20px;
+}
+
+/* Laptop Resolution */
+@media screen and (max-width: 1024px) {
+    .about-container {
+        height: 100%;
+        width: 40%;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+    
+    p {
+        font-size: 15px;
+    }
+}
+  

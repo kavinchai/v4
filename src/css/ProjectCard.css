@@ -53,30 +53,30 @@
 
 .project-card-title {
   align-self: center;
-  font-family: "Noto Sans TC", sans-serif;
+  font-family: var(--primary-font);
   font-size: 20px;
   font-weight: bold;
   color: Black;
 }
 
 .project-card-desc {
-  font-family: "Noto Sans TC", sans-serif;
-  font-size: 12px;
+  font-family: var(--primary-font);
+  font-size: 15px;
   color: Black;
   position: relative;
   top: 20px;
 }
 
 .project-card-tech {
-  font-family: "Noto Sans TC", sans-serif;
-  font-size: 15px;
+  font-family: var(--primary-font);
+  font-size: 14px;
   font-weight: 600;
   color: Black;
   display: flex;
   gap: 12px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .project-card-component {
     /* border: 3px solid var(--secondary-bg-color); */
 
@@ -89,7 +89,7 @@
   }
 
   .project-card-title {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .project-card-desc {
@@ -97,7 +97,7 @@
   }
 
   .project-card-tech {
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 

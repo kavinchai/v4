@@ -14,7 +14,7 @@ const FirstPage = () => {
           1000,
           "I take photos",
           1000,
-          "I review coffee",
+          "I drink coffee",
           1000,
         ]}
         speed={30}

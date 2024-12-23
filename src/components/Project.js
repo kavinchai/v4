@@ -6,11 +6,11 @@ import projectsJson from "../content/projects.json";
 const Project = () => {
   return (
     <>
-      <div className="project-component">
-        <div className="project-container">
-          <div className="project-header project-header-text">Projects</div>
-          <div className="project-header-subtitle">Things I've made</div>
-          <div className="project-body">
+      <div className="proj-component">
+        <div className="proj-container">
+          <div className="proj-header header-txt">{'<'}Projects{'/>'}</div>
+          <div className="proj-subtitle sub-txt">Things I've made</div>
+          <div className="proj-body">
             {projectsJson.data.map((projInfo, index) => (
               <ProjectCard key={index} proj={projInfo}/>
             ))}
