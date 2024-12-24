@@ -42,7 +42,7 @@
 }
 
 /* Laptop Resolution */
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
   .name-section {
     font-size: 4em;
   }
@@ -51,5 +51,3 @@
     font-size: 3em;
   }
 }
-
-

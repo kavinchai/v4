@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,500;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,500;1,500&display=swap");
 
 :root {
   --primary-bg-color: #aad4f3;
@@ -14,7 +14,7 @@
 
   --thai-font: "Prompt", sans-serif;
   --primary-font: "JetBrains Mono", serif;
-  --std-bg-color: #FFFFFF;
+  --std-bg-color: #ffffff;
 
   --std-header: 50px;
   --std-subtitle: 30px;
@@ -23,7 +23,7 @@
 body {
   margin: 0;
   overflow-x: hidden;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .header-txt {
@@ -43,7 +43,6 @@ body {
   font-size: 20px;
   font-family: var(--primary-font);
   font-weight: 300;
-  padding-bottom: 40px;
   color: Black;
 }
 
@@ -52,7 +51,7 @@ body {
   .header-txt {
     font-size: 40px;
   }
-  
+
   .sub-txt {
     font-size: 18px;
   }

@@ -76,12 +76,12 @@
   gap: 12px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
   .project-card-component {
     /* border: 3px solid var(--secondary-bg-color); */
 
-    height: 350px;
-    width: 305px;
+    height: 300px;
+    width: 265px;
     margin: 30px;
 
     border-radius: 10px;
@@ -89,15 +89,15 @@
   }
 
   .project-card-title {
-    font-size: 18px;
-  }
-
-  .project-card-desc {
     font-size: 15px;
   }
 
+  .project-card-desc {
+    font-size: 12px;
+  }
+
   .project-card-tech {
-    font-size: 13px;
+    font-size: 11px;
   }
 }
 

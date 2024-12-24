@@ -70,7 +70,7 @@
 }
 
 /* Laptop Resolution */
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
   .exp-nav-btn {
     font-size: 18px;
   }
@@ -78,7 +78,7 @@
   .exp-nav {
     width: 17%;
   }
-  
+
   .exp-nav-btn {
     height: 14%;
   }

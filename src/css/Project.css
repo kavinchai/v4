@@ -22,12 +22,13 @@
 }
 
 .proj-header {
-  /* background-color: blue; */
+  /* background-color: green; */
   /* margin-top: 70px; */
   text-align: center;
 }
 
 .proj-subtitle {
+  /* background-color: red; */
   text-align: center;
 }
 
@@ -62,4 +63,3 @@
   opacity: 1;
   background-color: rgba(8, 131, 131, 0.1);
 }
-
