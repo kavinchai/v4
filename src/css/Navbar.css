@@ -1,52 +1,49 @@
 .navBarComponent {
-  height: 6%;
+  height: 60px;
   width: 100vw;
-
-  position: fixed;
+  position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 1000;
   transition: 0.5s;
-  background-color: var(--tertiary-bg-color);
+  background-color: rgba(8, 131, 131, 0.808);
+  display: flex;
+  align-items: center;
 }
 
 .navBarContainer {
-  /* background-color: blue; */
-
-  height: 50%;
-  width: auto;
-
-  top: 50%;
-  transform: translate(0%, 50%);
-
+  /* background-color: yellow; */
+  height: auto;
+  width: 100%;
   display: flex;
   align-items: center;
-  margin-left: 15%;
-  margin-right: 15%;
+  justify-content: space-between;
+  padding: 0 20px; 
+  font-family: var(--primary-font);
+}
+
+.navNameContainer {
+  display: flex;
 }
 
 .firstName {
-  font-size: 20px;
   color: white;
 }
 
-.firstNameEng {
-  font-family: var(--heading-font);
-}
-
-.firstNameTh {
-  font-family: var(--thai-font);
-}
-
 .lastName {
-  font-size: 20px;
-  color: var(--secondary-txt-color);
+  color: var(--tertiary-txt-color);
 }
 
-.lastNameEng {
+.firstName, .lastName {
+  font-size: 20px;
+  margin-right: 5px;
+
+}
+
+.firstNameEng, .lastNameEng {
   font-family: var(--heading-font);
 }
 
-.lastNameTh {
+.firstNameTh, .lastNameTh {
   font-family: var(--thai-font);
 }
 
@@ -59,7 +56,7 @@
   /* background-color: green; */
   display: flex;
   gap: 20px;
-  margin-left: auto;
+  margin-right: 20px;
 }
 
 .navBtn {
@@ -68,7 +65,7 @@
 
   background-color: transparent;
   border: none;
-  color: var(--tertiary-txt-color);
+  color: #FFFFFF;
   text-decoration: underline 0.15em rgba(255, 255, 255, 0);
   transition: text-decoration-color 300ms;
 }

@@ -8,6 +8,7 @@ const Navbar = () => {
   return (
     <div className="navBarComponent">
       <div className="navBarContainer">
+        <div className="navNameContainer">
         <div
           className={myName === true ? "firstName firstNameEng navName" : "firstName firstNameTh navName"}
           onClick={() => setMyName((prev) => !prev)}
@@ -19,6 +20,7 @@ const Navbar = () => {
           onClick={() => setMyName((prev) => !prev)}
         >
           {myName === true ? "chai" : "ฉาย"}
+        </div>
         </div>
         <div className="navMenu">
           <button

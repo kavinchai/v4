@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import "../css/About.css";
 import imag from "../imgs/kavin_image.png";
+import Navbar from "./Navbar";
 
 const About = () => {
   const [myName, setMyName] = useState(true);
 
   return (
     <>
+      <Navbar/>
       <div className="about-component">
         <div className="about-container">
             <text className="about-header header-txt">{'<'}About{'/>'}</text>
