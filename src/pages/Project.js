@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/Project.css";
-import ProjectCard from "./ProjectCard";
+import ProjectCard from '../components/ProjectCard'
 import projectsJson from "../content/projects.json";
 
 const Project = () => {

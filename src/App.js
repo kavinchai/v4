@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // Use Routes instead of Switch
-import FirstPage from "./FirstPage";
-import Exp from "./Exp";
-import Project from "./Project";
-import About from "./About";
-import Note from "./Note";
+import FirstPage from "./pages/FirstPage";
+import Exp from "./pages/Exp";
+import Project from "./pages/Project";
+import About from "./pages/About";
+import Note from "./pages/Note";
 
 const App = () => {
   return (

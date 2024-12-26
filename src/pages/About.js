@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import "../css/About.css";
 import imag from "../imgs/kavin_image.png";
-import Navbar from "./Navbar";
-import { useScrollSpy } from "../helper";
+import Navbar from "../components/Navbar";
 
 const About = () => {
   const [myName, setMyName] = useState(true);
