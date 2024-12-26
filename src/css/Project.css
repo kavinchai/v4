@@ -3,33 +3,19 @@
   height: auto;
   width: 100vw;
   transition: 0.5s;
-  /* background-color: var(--std-bg-color); */
   display: flex;
   align-items: center;
   justify-content: center;
-  /* position: relative; */
 }
 
 .proj-container {
   /* border: 5px solid #ffff00; */
   position: relative;
-  padding: 10px;
   height: 80%;
   width: 80%;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-}
-
-.proj-header {
-  /* background-color: green; */
-  /* margin-top: 70px; */
-  text-align: center;
-}
-
-.proj-subtitle {
-  /* background-color: red; */
-  text-align: center;
 }
 
 .proj-body {

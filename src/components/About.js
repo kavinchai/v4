@@ -2,17 +2,17 @@ import React, { useState } from "react";
 import "../css/About.css";
 import imag from "../imgs/kavin_image.png";
 import Navbar from "./Navbar";
+import { useScrollSpy } from "../helper";
 
 const About = () => {
   const [myName, setMyName] = useState(true);
-
   return (
     <>
       <Navbar/>
       <div className="about-component">
         <div className="about-container">
-            <text className="about-header header-txt">{'<'}About{'/>'}</text>
-            <h1>What is this anyways?</h1>
+            <h1 className="about-header header-txt">{'<'}About{'/>'}</h1>
+            <h2>What is this anyways?</h2>
             <p>
               Hi, my name is{" "}
               <mark
@@ -26,14 +26,14 @@ const About = () => {
               showcased what I worked on and where.. but now I want it to be something more!
 
             </p>
-            <h1>So what now?</h1>
+            <h2>So what now?</h2>
             <p>
               I'm still figuring that out. I want this website to be a place where I can share
               my thoughts, projects, and experiences. I want it to be a place where I can learn
               and grow. I want it to be a place where I can connect with others who share similar
               interests.
             </p>
-            <h1>Thats cool, but what do you mean specifically?</h1>
+            <h2>Thats cool, but what do you mean specifically?</h2>
             <p>
               I'll post what I'm studying, what cool photos I've taken recently, and other 
               things that might pop into my head from time to time.

@@ -18,7 +18,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 20px; 
-  font-family: var(--primary-font);
+  font-family: var(--prim-font);
 }
 
 .navNameContainer {
@@ -30,7 +30,7 @@
 }
 
 .lastName {
-  color: var(--tertiary-txt-color);
+  color: var(--tert-txt-color);
 }
 
 .firstName, .lastName {
@@ -71,7 +71,7 @@
 }
 
 .navBtn:hover {
-  text-decoration-color: var(--dm-secondary-txt-color);
+  text-decoration-color: var(--dm-sec-txt-color);
   cursor: pointer;
 }
 

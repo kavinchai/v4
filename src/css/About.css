@@ -1,8 +1,6 @@
 .about-component {
   height: 100vh;
   width: 100vw;
-  /* background-color: red; */
-  background-color: var(--std-bg-color);
   position: relative;
   display: flex;
   justify-content: center;
@@ -28,12 +26,12 @@
   cursor: pointer;
 }
 
-h1 {
-  font-family: var(--primary-font);
+h2 {
+  font-family: var(--prim-font);
 }
 
 p {
-  font-family: var(--primary-font);
+  font-family: var(--prim-font);
   font-size: 20px;
 }
 
@@ -43,7 +41,7 @@ p {
     width: 40%;
   }
 
-  h1 {
+  h2 {
     font-size: 18px;
   }
 

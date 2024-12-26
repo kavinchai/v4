@@ -53,14 +53,14 @@
 
 .project-card-title {
   align-self: center;
-  font-family: var(--primary-font);
+  font-family: var(--prim-font);
   font-size: 20px;
   font-weight: bold;
   color: Black;
 }
 
 .project-card-desc {
-  font-family: var(--primary-font);
+  font-family: var(--prim-font);
   font-size: 15px;
   color: Black;
   position: relative;
@@ -68,7 +68,7 @@
 }
 
 .project-card-tech {
-  font-family: var(--primary-font);
+  font-family: var(--prim-font);
   font-size: 14px;
   font-weight: 600;
   color: Black;
@@ -78,7 +78,7 @@
 
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
   .project-card-component {
-    /* border: 3px solid var(--secondary-bg-color); */
+    /* border: 3px solid var(--sec-bg-color); */
 
     height: 300px;
     width: 265px;
@@ -103,7 +103,7 @@
 
 @media screen and (max-width: 500px) {
   .project-card-component {
-    /* border: 3px solid var(--secondary-bg-color); */
+    /* border: 3px solid var(--sec-bg-color); */
 
     height: 300px;
     width: 100%;

@@ -1,9 +1,7 @@
 .first-page-component {
   height: 100vh;
   width: 100vw;
-  /* position: relative; */
   display: flex;
-  background-color: var(--std-bg-color);
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -21,23 +19,21 @@
   padding-left: 150px;
 
   font-size: 7em;
-  font-family: var(--primary-font);
+  font-family: var(--prim-font);
   font-weight: 1000;
   -webkit-text-size-adjust: 100%;
 }
 
 .desc-section {
+  /* background: blue; */
   width: 100%;
   height: 10%;
-  /* background: blue; */
   display: flex;
   flex-direction: row;
   align-items: center;
   padding-left: 150px;
-
-  /* font-size: 70px; */
   font-size: 5em;
-  font-family: var(--primary-font);
+  font-family: var(--prim-font);
   -webkit-text-size-adjust: 100%;
 }
 

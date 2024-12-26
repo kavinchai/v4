@@ -8,8 +8,8 @@ const Project = () => {
     <>
       <div className="proj-component">
         <div className="proj-container">
-          <div className="proj-header header-txt">{'<'}Projects{'/>'}</div>
-          <div className="proj-subtitle sub-txt">Things I've made</div>
+          <h1 className="proj-header header-txt">{'<'}Projects{'/>'}</h1>
+          <h2 className="proj-subtitle sub-txt">Things I've made</h2>
           <div className="proj-body">
             {projectsJson.data.map((projInfo, index) => (
               <ProjectCard key={index} proj={projInfo}/>

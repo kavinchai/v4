@@ -1,23 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,500;1,500&display=swap");
 
 :root {
-  --primary-bg-color: #aad4f3;
-  --secondary-bg-color: #86b9df;
-  --tertiary-bg-color: #89b2d1;
-  --quaternary-bg-color: #175d8d;
-  --quinary-bg-color: #104265;
+  /* My chosen color pallete */
+  --prim-bg-color: #aad4f3;
+  --sec-bg-color: #86b9df;
+  --tert-bg-color: #89b2d1;
+  --quat-bg-color: #175d8d;
+  --quin-bg-color: #104265;
 
-  --primary-txt-color: #89b2d1;
-  --secondary-txt-color: #175d8d;
-  --tertiary-txt-color: #104265;
-  --quaternary-txt-color: #ffffff;
+  --prim-txt-color: #89b2d1;
+  --sec-txt-color: #175d8d;
+  --tert-txt-color: #104265;
+  --quat-txt-color: #ffffff;
 
   --thai-font: "Prompt", sans-serif;
-  --primary-font: "JetBrains Mono", serif;
+  --prim-font: "JetBrains Mono", serif;
   --std-bg-color: #ffffff;
+}
 
-  --std-header: 50px;
-  --std-subtitle: 30px;
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 0px;
 }
 
 body {
@@ -28,20 +35,20 @@ body {
 
 .header-txt {
   /* background-color: blue; */
-
+  text-align: center;
   height: auto;
   font-size: 50px;
   font-weight: bold;
-  font-family: var(--primary-font);
+  font-family: var(--prim-font);
   color: Black;
 }
 
 .sub-txt {
   /* background-color: green; */
-
+  text-align: center;
   height: auto;
   font-size: 20px;
-  font-family: var(--primary-font);
+  font-family: var(--prim-font);
   font-weight: 300;
   color: Black;
 }
