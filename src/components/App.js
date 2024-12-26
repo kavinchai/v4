@@ -9,6 +9,7 @@ import About from "./About";
 const App = () => {
   return (
     <>
+      <Navbar/>
       <FirstPage />
       <About />
       <Exp />
