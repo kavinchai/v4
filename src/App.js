@@ -7,21 +7,24 @@ import About from "./pages/About";
 import Note from "./pages/Note";
 
 const App = () => {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={
-          <>
-            <FirstPage />
-            <About />
-            <Exp />
-            <Project />
-          </>
-        } />
-        <Route path="/notes" element={<Note/>}></Route>
-      </Routes>
-    </Router>
-  );
+	return (
+		<Router>
+			<Routes>
+				<Route
+					path="/"
+					element={
+						<>
+							<FirstPage />
+							<About />
+							<Exp />
+							<Project />
+						</>
+					}
+				/>
+				{/* <Route path="/notes" element={<Note/>}></Route> */}
+			</Routes>
+		</Router>
+	);
 };
 
 export default App;
