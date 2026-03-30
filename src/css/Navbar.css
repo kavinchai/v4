@@ -1,5 +1,6 @@
 .navBarComponent {
-  width: 100vw;
+  width: 100%;
+  height: 60px;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -88,10 +89,15 @@
 }
 
 .mobileMenu {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
   display: flex;
   flex-direction: column;
   background-color: rgba(7, 102, 102, 0.97);
   padding: 8px 0;
+  z-index: 999;
 }
 
 .mobileMenuBtn {
