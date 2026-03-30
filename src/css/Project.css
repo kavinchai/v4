@@ -49,3 +49,10 @@
   opacity: 1;
   background-color: rgba(8, 131, 131, 0.1);
 }
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  .proj-container {
+    width: 92%;
+  }
+}

@@ -8,8 +8,6 @@
 }
 
 .about-container {
-  /* border: 5px solid #ffff00; */
-
   position: relative;
   height: 80%;
   width: 40%;
@@ -47,5 +45,38 @@ p {
 
   p {
     font-size: 15px;
+  }
+}
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+  .about-component {
+    height: auto;
+    min-height: 100vh;
+    padding: 60px 0;
+  }
+
+  .about-container {
+    width: 70%;
+    height: auto;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  .about-component {
+    padding: 40px 0;
+  }
+
+  .about-container {
+    width: 88%;
+  }
+
+  h2 {
+    font-size: 17px;
+  }
+
+  p {
+    font-size: 14px;
   }
 }
