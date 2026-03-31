@@ -141,4 +141,9 @@
     padding-left: 10px;
     padding-bottom: 16px;
   }
+
+  .expDescCompany:hover {
+    cursor: default;
+    text-decoration-color: var(--std-bg-color);
+  }
 }
