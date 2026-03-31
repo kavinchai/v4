@@ -1,91 +1,72 @@
 .project-card-component {
   border: 3px solid black;
-
   height: 350px;
   width: 330px;
   margin: 50px;
-
   border-radius: 9px;
-  position: relative;
-
   text-decoration: none;
   transition: 0.2s;
-  /* background-color: rgba(8, 131, 131, 0.1); */
-  /* background-color: #b3dff0 */
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
 }
 
 .project-card-header {
-  /* background-color: blue; */
-
-  margin: 30px 40px 0px 40px;
-  display: flex;
+  padding: 30px 40px 0;
+  flex-shrink: 0;
 }
 
 .project-card-body {
-  /* background-color: red; */
-
-  margin: 0px 40px 0px 40px;
-  height: auto;
-  display: flex;
+  padding: 15px 40px 0;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
 }
 
 .project-card-footer {
-  /* background-color: green; */
-  margin: auto 40px 30px 40px;
-}
-
-.project-card-header-sect {
+  padding: 10px 40px 20px;
+  height: 60px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  overflow: hidden;
   display: flex;
-  justify-content: center;
-}
-
-.project-card-body-sect {
-  display: flex;
-  justify-content: center;
-}
-
-.project-card-footer-sect {
-  display: flex;
+  align-items: center;
   justify-content: center;
 }
 
 .project-card-title {
-  align-self: center;
   font-family: var(--prim-font);
   font-size: 20px;
   font-weight: bold;
-  color: Black;
+  color: black;
 }
 
 .project-card-desc {
   font-family: var(--prim-font);
-  font-size: 15px;
-  color: Black;
-  position: relative;
-  top: 20px;
+  font-size: 14px;
+  color: black;
+  height: 100%;
+  overflow: hidden;
 }
 
 .project-card-tech {
   font-family: var(--prim-font);
   font-size: 14px;
   font-weight: 600;
-  color: Black;
+  color: black;
   display: flex;
   gap: 12px;
+  align-items: center;
+  overflow: hidden;
+  white-space: nowrap;
+  height: 100%;
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
   .project-card-component {
-    /* border: 3px solid var(--sec-bg-color); */
-
     height: 300px;
     width: 265px;
     margin: 30px;
-
-    border-radius: 10px;
-    position: relative;
   }
 
   .project-card-title {
@@ -101,27 +82,9 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   .project-card-component {
-    /* border: 3px solid var(--sec-bg-color); */
-
-    height: 300px;
-    width: 100%;
-    margin: 20px;
-
-    border-radius: 10px;
-    position: relative;
-  }
-
-  .project-card-title {
-    font-size: 18px;
-  }
-
-  .project-card-desc {
-    font-size: 17px;
-  }
-
-  .project-card-tech {
-    font-size: 13px;
+    width: 90%;
+    margin: 15px 0;
   }
 }

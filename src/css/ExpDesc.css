@@ -6,6 +6,7 @@
 
   position: relative;
   transition: 0.5s;
+  overflow: hidden;
 }
 
 .exp-desc-header {
