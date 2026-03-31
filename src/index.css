@@ -27,11 +27,16 @@ h2 {
   margin-top: 0px;
 }
 
+html {
+  overscroll-behavior-x: none;
+}
+
 body {
   margin: 0;
   overflow-x: hidden;
   max-width: 100%;
   background-color: #ffffff;
+  overscroll-behavior-x: none;
 }
 
 .header-txt {
