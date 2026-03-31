@@ -1,7 +1,7 @@
 {
 	"data": [
 		{
-			"title": "FitTrack — Workout App",
+			"title": "FitTrack",
 			"desc": "Full-stack personal fitness tracker for weight, nutrition, workouts, strength progression, goals, and milestones. React + Vite frontend with Recharts visualizations, Spring Boot REST API with JWT auth, and PostgreSQL. Deployed on AWS ECS Fargate and S3 + CloudFront",
 			"link": "https://github.com/kavinchai/WorkoutApp",
 			"tech": ["React", "Spring Boot", "PostgreSQL", "AWS"]
